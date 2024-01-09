@@ -104,7 +104,7 @@ def visualize(num_samples):
 visualize(25)
 from pathlib import Path
 def get_weights_file_path(epoch:str):
-    model_folder = 'C:/Users/amade/Documents/GitHub/VAEs_and_Time_Series/model_vae'
+    model_folder = 'C:/Users/amade/Documents/GitHub/Time_series_with_lstm_and_vaes/model_vae'
     model_basename = 'vaemodel_'
     model_filename = f'{model_basename}{epoch}.pt'
     return str(Path('.')/model_folder/model_filename)
