@@ -1,0 +1,11 @@
+
+library(ggplot2)
+
+# loading data set and storing it in ds variable
+boxplot(data)
+
+
+ggplot(data, aes(x = '', y=AES)) + 
+  geom_boxplot()+
+  geom_jitter(position=position_jitter(0.2))
+
